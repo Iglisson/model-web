@@ -28,7 +28,7 @@
         </div>
 
         <!-- cabeçalho -->
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="_Images/img-dev.jpg" alt="Imagem de Desenvolvedor">
             </div>
@@ -43,11 +43,11 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="me-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="me-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="me-item"><a href="#" class="menu-link">projetos</a></li>
-                    <li class="me-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="me-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="me-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="me-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="me-item"><a href="#projetos" class="menu-link">projetos</a></li>
+                    <li class="me-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="me-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
                 </ul>
             </nav>
 
@@ -61,7 +61,7 @@
 
         <!-- seção conhecimentos -->
         <!-- section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p{lorem}*6) -->
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -128,7 +128,7 @@
 
         <!-- seção projetos -->
         <!-- section.sessao-projetos>(div.sessao-header>h1)+div.projetos>.card>(.card-img-wrapper+.card-info>h2+h3+p+button)*3 -->
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -173,7 +173,7 @@
 
         <!-- seção contatos -->
         <!-- section.sessao-contato>div.contato-wrapper>div.contato-left+(div.contato-right>h1+(form>(.input-group>input.field+label.field-label)*3)) -->
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contato">
             <div class="contato-wrapper">
                 <div class="contato-left"></div>
                 <div class="contato-right">
@@ -200,7 +200,7 @@
 
 
         <!-- seção orçamento -->
-        <secion class="sessao-orcamento">
+        <secion class="sessao-orcamento" id="orcamento">
             <div class="orcamento-wrapper">
                 <h1>Faça o orçamento</h1>
                 <form>
@@ -226,6 +226,26 @@
                 </form>
             </div>
         </secion>
+
+        <!-- rodapé -->
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2021, Iglisson Ruan - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github-alt"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
 
     <script src="_JavaScript/menu.js"></script>
