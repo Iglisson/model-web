@@ -25,6 +25,7 @@
             <span class="fechar">Fechar</span>
         </div>
 
+        <!-- cabeçalho -->
         <header>
             <div class="img-wrapper">
                 <img src="_Images/img-dev.jpg" alt="Imagem de Desenvolvedor">
@@ -36,8 +37,8 @@
             </div>
         </header>
 
-        <!-- div.sidebar>nav>ul.menu>(li.me-item>a.menu-link)*5 -->
-        <div class="sidebar">
+        <!-- aside.sidebar>nav>ul.menu>(li.me-item>a.menu-link)*5 -->
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
                     <li class="me-item"><a href="#" class="menu-link">Home</a></li>
@@ -54,7 +55,120 @@
                 <a href=""><i class="fab fa-github-alt"></i></a>
                 <a href=""><i class="fab fa-twitter"></i></a>
             </div>
-        </div>
+        </aside>
+
+        <!-- seção conhecimentos -->
+        <!-- section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p{lorem}*6) -->
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia nisi iste dolores delectus itaque amet est sit aperiam. Architecto amet quam nam velit est ab vel dolore natus harum.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel eaque error quaerat ipsa, praesentium aperiam nihil? Impedit vero iusto laudantium neque amet magni adipisci aliquam, nam ducimus dolorum corrupti ipsa?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, reprehenderit? Modi odit nisi aliquam repellendus assumenda minus deserunt, perferendis placeat a tenetur voluptates iure illum laboriosam repellat delectus voluptas voluptatibus.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae autem, ad molestias hic dolore iure adipisci qui alias sed. Modi nulla ut deserunt fugit magnam quam quae vero voluptatibus illum?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore maiores perferendis fugiat, totam, quae est suscipit nisi accusantium dicta sed alias praesentium iusto cum quaerat aliquid molestiae ratione ipsam cumque.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente odio explicabo reiciendis necessitatibus, expedita quasi facere perferendis ad! Quibusdam, quos deleniti doloremque harum possimus atque saepe fuga! Labore, illum!</p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="_Images/conhecimentos.png" alt="Imagem conhecimento"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- seção projetos -->
+        <!-- section.sessao-projetos>(div.sessao-header>h1)+div.projetos>.card>(.card-img-wrapper+.card-info>h2+h3+p+button)*3 -->
+        <section class="sessao-projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="_Images/proj1.jpg" alt="Imagem do projeto ToDo">
+                    </div>
+                    <div class="card-info">
+                        <h2>ToDo List</h2>
+                        <h3>JavaScript</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda esse dolore. Temporibus et assumenda cumque provident tempora placeat, quod eveniet asperiores ad pariatur impedit nostrum. Rerum, quaerat quae. Saepe.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="_Images/proj2.jpg" alt="Imagem do projeto Maratona">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nesciunt laudantium sint odit. Velit similique, laudantium hic tenetur beatae nisi tempora nam accusantium optio obcaecati magni ea pariatur quos doloremque.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="_Images/proj3.jpg" alt="Imagem do projeto Casa Bela">
+                    </div>
+                    <div class="card-info">
+                        <h2>Casa Bela</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam porro aut? Eaque tenetur fugiat esse et dolor aliquid deserunt ab voluptas. Quia et excepturi soluta sequi officia laborum consectetur?</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 
     <script src="_JavaScript/menu.js"></script>
