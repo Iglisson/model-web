@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_CSS/style.css">
     <link rel="stylesheet" href="_CSS/menu.css">
+    <link rel="stylesheet" href="_CSS/contatos.css">
     <link rel="shortcut icon" href="favicon.ico">
     <!-- links referentes ao favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="_Favicon/apple-touch-icon.png">
@@ -139,7 +140,7 @@
                         <h2>ToDo List</h2>
                         <h3>JavaScript</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda esse dolore. Temporibus et assumenda cumque provident tempora placeat, quod eveniet asperiores ad pariatur impedit nostrum. Rerum, quaerat quae. Saepe.</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
                 
@@ -151,7 +152,7 @@
                         <h2>Maratona</h2>
                         <h3>HTML</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nesciunt laudantium sint odit. Velit similique, laudantium hic tenetur beatae nisi tempora nam accusantium optio obcaecati magni ea pariatur quos doloremque.</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
                 
@@ -163,12 +164,38 @@
                         <h2>Casa Bela</h2>
                         <h3>HTML</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam porro aut? Eaque tenetur fugiat esse et dolor aliquid deserunt ab voluptas. Quia et excepturi soluta sequi officia laborum consectetur?</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- seção contatos -->
+        <!-- section.sessao-contato>div.contato-wrapper>div.contato-left+(div.contato-right>h1+(form>(.input-group>input.field+label.field-label)*3)) -->
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="field">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" class="field">
+                            <label for="email" class="field-label">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="_JavaScript/menu.js"></script>

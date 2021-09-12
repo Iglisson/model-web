@@ -263,9 +263,7 @@ header{
     margin-bottom: 2rem;
 }
 
-.card-info button{
-    width: 8rem;
-    height: 2.5rem;
+.btn{
     background: #DA4453;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89216B, #DA4453);
     background: linear-gradient(to top, #89216B, #DA4453);
@@ -275,6 +273,11 @@ header{
     border-radius: .5rem;
     border: none; /* sem borda */
     box-shadow: 0 .1rem .8rem rgba(0, 0, 0, 0.4);
+}
+
+.card-info button{
+    width: 8rem;
+    height: 2.5rem;
 }
 
 .card:hover .card-info{
